@@ -1,0 +1,12 @@
+VERY SIMPLE USAGE
+
+Simple and poorly-written programs for fun and curiosity.
+
+1. Benchmark how long a read() system call takes to run
+$ ./read <num_of_runs>
+$ ./read 100000
+
+2. Benchmark process context switch via pipe communication:
+$ ./cswitch
+give it a time and ^C
+
